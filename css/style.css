@@ -13,8 +13,7 @@
 }
 
 body {
-    display: grid;
-    place-items: center;
+    display: block;
 }
 
 .card-logo {
@@ -110,6 +109,11 @@ main section {
 @media only screen and (min-width: 600px) {
     main {
         display: flex;
+    }
+
+    body {
+        display: grid;
+        place-items: center;
     }
 
     .card-mobile-hero {
